@@ -1,3 +1,4 @@
+conda update --all
 numpy==1.15.4
 WTForms==2.3.1
 Flask==1.0.2
