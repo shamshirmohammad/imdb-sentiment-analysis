@@ -13,9 +13,9 @@ import numpy as np
 from sklearn.externals import joblib
 
 
-loaded_model=joblib.load("./pkl_objects/model.pkl")
-loaded_stop=joblib.load("./pkl_objects/stopwords.pkl")
-loaded_vec=joblib.load("./pkl_objects/vectorizer.pkl")
+loaded_model=joblib.load("model.pkl")
+loaded_stop=joblib.load("stopwords.pkl")
+loaded_vec=joblib.load("vectorizer.pkl")
 
 app = Flask(__name__)
 def classify(document):
